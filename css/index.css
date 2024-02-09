@@ -323,7 +323,7 @@ body{
     padding: clamp(3rem, 30vh, 10rem) 0;
     transform: translateY(-100%);
     transition: transform 250ms ease-in-out;
-
+    /* align-items: end; */
   }
   .primary-navigation[data-visible="true"]{
     transform: translateY(0%);
@@ -471,7 +471,7 @@ body{
 /* ====hero section=== */
 
 .hero-section{
-  width: 80vh;
+  width: vh;
   margin-inline: auto;
   padding-inline: 2rem;
   background-color: hsl(var(--clr-gray));
